@@ -1,0 +1,135 @@
+body {
+    display: flex;
+    flex-direction: column;
+
+    background-image: url("../img/background_transparent.png");
+}
+
+#intro {
+    font-family: 'Gill Sans', 'Gill Sans MT', sans-serif;
+    color: darkslategrey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: none;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 20px;
+}
+
+#intro>div {
+    margin-bottom: 20px;
+    padding: none;
+}
+
+#intro-title {
+    font-weight: bold;
+    font-size: 60px;
+    white-space: nowrap;
+    margin-top: -10px;
+}
+
+#intro-sub-title {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#sections {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: -30px;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 10px;
+}
+
+.section_image {
+    transform: scale(0.8);
+    transition: transform .3s;
+    cursor: pointer;
+}
+
+.section-description {
+    margin-left: 40px;
+}
+
+.section_image:hover {
+    transform: scale(1);
+}
+
+.section_title {
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: whitesmoke;
+    font-size: 12px;
+    border: 2px solid;
+    border-radius: 10px;
+    box-shadow: 10px -10px darkgray;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.visible {
+    visibility: visible;
+}
+
+#popup-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 20px
+}
+
+.popup-section {
+    display: flex;
+    flex-direction: column;
+    padding-right: 20px;
+    align-items: flex-start;
+}
+
+.popup-section-image {
+    transform: scale(0.8);
+}
+
+.popup-section-title {
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.popup-section-description {
+    font-size: 15px;
+}
+
+.popup-close {
+    filter: grayscale(1);
+    border: none;
+    background: none;
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    transition: ease filter, transform 0.3s;
+    cursor: pointer;
+    transform-origin: center;
+
+    &:hover {
+        filter: grayscale(0);
+        transform: scale(1.1);
+    }
+}

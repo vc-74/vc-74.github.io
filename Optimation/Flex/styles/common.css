@@ -1,0 +1,31 @@
+body {
+    display: grid;
+    font-family: Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+#header {
+    display: flex;
+    flex-direction: row;
+    padding: 8px 0px 0px 8px;
+}
+
+#logo-container {
+    display: flex;
+    flex-direction: row;
+    height: min-content;
+}
+
+#contact-container {
+    margin-left: auto;
+}
+
+.header-anchor {
+    border: none;
+    color: #000 !important;
+    text-decoration: none;
+}
+
+.header-anchor:hover {
+    background-color: #ccc !important;
+}

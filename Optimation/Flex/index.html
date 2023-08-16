@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>Optimation</title>
+
+<head>
+    <link rel="stylesheet" href="styles/common.css">
+    <link rel="stylesheet" href="styles/index.css">
+    <script type="text/javascript" src="script/index.js"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div id="logo-container">
+            <a class="header-anchor" href="index.html">
+                <img id="logo" src="img/Logo.png" />
+            </a>
+        </div>
+
+        <div id="contact-container">
+            <a id="contact" class="header-anchor" href="mailto:etienne.croquette@optimation.uk">Contact</a>
+        </div>
+    </div>
+
+    <div id="intro">
+        <div id="intro-title">Welcome to Optimation UK</div>
+        <div id="intro-sub-title">Automation and Engineering Consultancy</div>
+        <div id="intro-description">
+            With over 20 years of experience in Automation and Product Development, Optimation.uk is here to help Life
+            Scientists seeking to accelerate impactful science, and equipment manufacturers aiming to efficiently
+            develop pertinent and innovative products. Please contact us to discuss your requirements.
+        </div>
+    </div>
+
+    <div id="sections" class="sections">
+        <div id="automation" class="section">
+            <a onclick="document.getElementById('automation_popup').className = 'popup visible'">
+                <img class="section_image" src="img/automation.png" />
+            </a>
+            <div class="section-description">
+                <div class="section_title">Automation</div>
+                <div>
+                    Requirements definition<br />
+                    Sourcing<br />
+                    Implementation<br />
+                    Optimisation<br />
+                </div>
+            </div>
+        </div>
+
+        <div id="product-rd" class="section">
+            <a onclick="document.getElementById('product_rd_popup').className = 'popup visible'">
+                <img class="section_image" src="img/product_rd.png" />
+            </a>
+            <div class="section-description">
+                <div class="section_title">Product R&D</div>
+                <div>
+                    Requirements definition<br />
+                    Concept design<br />
+                    Design reviews<br />
+                    IP / patenting<br />
+                    Program management<br />
+                </div>
+            </div>
+        </div>
+
+        <div id="engineering" class="section">
+            <a onclick="document.getElementById('engineering_popup').className = 'popup visible'">
+                <img class="section_image" src="img/engineering.png" />
+            </a>
+            <div class="section-description">
+                <div class="section_title">Engineering</div>
+                <div>
+                    Technical road-mapping<br />
+                    Design for reliability<br />
+                    Cost engineering<br />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="automation_popup" class="popup hidden">
+        <div id="popup-content">
+            <div class="popup-section">
+                <img class="popup-section-image" src="img/new-equipment-sourcing.png" />
+                <div class="popup-section-description">
+                    <div class="popup-section-title">New equipment sourcing</div>
+                    <div>
+                        Workflow definition<br />
+                        User Requirement Specification (URS) compilation<br />
+                        Suppliers consultation<br />
+                        Return on Investment Calculations<br />
+                        Technical review of quotations<br />
+                        Functional Design Specification<br />
+                        Acceptance criteria definition<br />
+                    </div>
+                </div>
+            </div>
+
+            <div class="popup-section">
+                <img class="popup-section-image" src="img/new_equipment_implementation.png" />
+                <div class="popup-section-description">
+                    <div class="popup-section-title">New equipment implementation</div>
+                    <div>
+                        Facilities planning<br />
+                        Project management<br />
+                        Interfacing with contractors<br />
+                        Acceptance testing (SAT)<br />
+                        Performance testing<br />
+                        Production start support<br />
+                        Sample migration planning<br />
+                        Sample migration execution<br />
+                    </div>
+                </div>
+            </div>
+
+            <div class="popup-section">
+                <img class="popup-section-image" src="img/new_equipment_optimisation.png" />
+                <div class="popup-section-description">
+                    <div class="popup-section-title">New / existing equipment optimisation </div>
+                    <div>
+                        Workflow streamlining<br />
+                        Failure mode analysis<br />
+                        Reliability improvement plans<br />
+                        Energy consumption reduction<br />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <button onclick="this.parentElement.className='popup hidden'" class="popup-close">❌</button>
+    </div>
+
+    <div id="product_rd_popup" class="popup hidden">
+        <div id="popup-content">
+            <div class="popup-section">
+                <img class="popup-section-image" src="img/product_requirements.png" />
+                <div class="popup-section-description">
+                    <div class="popup-section-title">Product requirements</div>
+                    <div>
+                        Market Requirement Definition<br />
+                        Competitive analysis<br />
+                        Product Requirements Specification<br />
+                        Technology Survey<br />
+                    </div>
+                </div>
+            </div>
+
+            <div class="popup-section">
+                <img class="popup-section-image" src="img/product_design_innovation.png" />
+                <div class="popup-section-description">
+                    <div class="popup-section-title">Product Design & innovation</div>
+                    <div>
+                        Engineering Specification<br />
+                        Ideation<br />
+                        Concept Design<br />
+                        Prototyping<br />
+                        IP / patenting<br />
+                    </div>
+                </div>
+            </div>
+
+            <div class="popup-section">
+                <img class="popup-section-image" src="img/product_development.png" />
+                <div class="popup-section-description">
+                    <div class="popup-section-title">Product development</div>
+                    <div>
+                        Testing support<br />
+                        Cost engineering<br />
+                        Reliability engineering<br />
+                        Early adoption support<br />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <button onclick="this.parentElement.className='popup hidden'" class="popup-close">❌</button>
+    </div>
+
+    <div id="engineering_popup" class="popup hidden">
+        <div id="popup-content">
+            <div class="popup-section">
+                <img class="popup-section-image" src="img/technical_road_mapping.png" />
+                <div class="popup-section-description">
+                    <div class="popup-section-title">Technical road mapping</div>
+                    <div>
+                        Innovative combination of technologies based on over 20 years of automation and engineering experience<br />
+                    </div>
+                </div>
+            </div>
+
+            <div class="popup-section">
+                <img class="popup-section-image" src="img/product_design_innovation.png" />
+                <div class="popup-section-description">
+                    <div class="popup-section-title">Design for reliability</div>
+                    <div>
+                        Experienced based "engineering common sense" <br />
+                    </div>
+                </div>
+            </div>
+
+            <div class="popup-section">
+                <img class="popup-section-image" src="img/cost_engineering.png" />
+                <div class="popup-section-description">
+                    <div class="popup-section-title">Cost engineering</div>
+                    <div>
+                        Proven track record of process and design streamlining to enable/engineer cost reductions<br />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <button onclick="this.parentElement.className='popup hidden'" class="popup-close">❌</button>
+    </div>
+</body>
+
+</html>
