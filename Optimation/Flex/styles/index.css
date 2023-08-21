@@ -45,6 +45,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    border-radius: 10px;
 }
 
 .section_image {

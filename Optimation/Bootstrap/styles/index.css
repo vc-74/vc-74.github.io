@@ -1,0 +1,42 @@
+body {
+   background-image: url("../img/background_transparent.png");
+}
+
+#intro {
+    font-family: 'Gill Sans', 'Gill Sans MT', sans-serif;
+    color: darkslategrey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: none;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 20px;
+}
+
+#intro>div {
+    margin-bottom: 20px;
+    padding: none;
+}
+
+#intro-title {
+    font-weight: bold;
+    font-size: 60px;
+    white-space: nowrap;
+    margin-top: -10px;
+}
+
+#intro-sub-title {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.section-image {
+    max-width: 80%;
+}
+
+.popup-title {
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
