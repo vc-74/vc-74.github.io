@@ -1,0 +1,27 @@
+body {
+   background-image: url("../img/background_transparent.png");
+}
+
+#intro {
+    font-family: 'Gill Sans', 'Gill Sans MT', sans-serif;
+    color: darkslategrey;
+}
+
+#intro-title {
+    font-weight: bold;
+    font-size: 60px;
+    white-space: nowrap;
+}
+
+#intro-sub-title {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#intro-description {
+    font-size: 18px;
+}
+
+.section-image {
+    max-width: 80%;
+}
